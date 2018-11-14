@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HungryHelp</string>
+
+    <string name="heading">What Should I Eat?</string>
+    <string name="heading2">You should have....</string>
+
+    <string name="toggle_on">Hot</string>
+    <string name="toggle_off">Cold</string>
+
+    <string-array name="ethnicity">
+        <item>American</item>
+        <item>Mexican</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <string name="radio1">Meal</string>
+    <string name="radio2">Dessert</string>
+    <string name="radio3">Drink</string>
+
+    <string name="salty">Salty</string>
+    <string name="sweet">Sweet</string>
+    <string name="sour">Sour</string>
+
+    <string name="hungry_button">Find</string>
+</resources>
