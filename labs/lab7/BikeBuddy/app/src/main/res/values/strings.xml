@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BikeBuddy</string>
+    <string name="title">Bike Finder</string>
+    <string name="prompt">Choose your environment.</string>
+    <string name="button">Find Bike</string>
+    <string-array name="environment">
+        <item>City streets</item>
+        <item>Sidewalks</item>
+        <item>Mountains</item>
+        <item>Parks</item>
+        <item>The circus</item>
+    </string-array>
+    <string name="bike_image">Bike</string>
+    <string name="suggested_bike">This is your suggested bike shop.</string>
+    <string name="button_image">Search</string>
+</resources>
