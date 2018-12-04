@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quizzical</string>
+    <string name="correct">Correct:</string>
+    <string name="correct_num">0</string>
+    <string name="incorrect">Incorrect:</string>
+    <string name="incorrect_num">0</string>
+    <string name="prompt">Select a category:</string>
+    <string-array name="categories">
+        <item>Art</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Sports</item>
+    </string-array>
+    <string name="question_num">Question 1</string>
+    <string name="question">What planet has the shortest day, at 10 hours?</string>
+    <string name="answer1">Mars</string>
+    <string name="answer2">Venus</string>
+    <string name="answer3">Jupiter</string>
+    <string name="answer4">Neptune</string>
+    <string name="hint">Hint</string>
+
+    <string name="user_desc">User icon</string>
+    <string name="trophy_desc">Trophy holder</string>
+</resources>
