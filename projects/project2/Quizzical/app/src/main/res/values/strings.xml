@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quizzical</string>
+    <string name="correct">Correct:</string>
+    <string name="incorrect">Incorrect:</string>
+    <string name="prompt">Select a category:</string>
+    <string-array name="categories">
+        <item>Art</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Sports</item>
+    </string-array>
+    <string name="select_button">Select</string>
+
+    //Content descriptions
+    <string name="user_desc">User icon</string>
+    <string name="user_bg_desc">User icon background color</string>
+    <string name="trophy_desc">Trophy holder</string>
+    <string name="question_bg_desc">Question background color</string>
+    <string name="next_button_desc">Next button</string>
+    <string name="skip_button_desc">Skip button</string>
+    <string name="hint_button_desc">Hint button</string>
+</resources>

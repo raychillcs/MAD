@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/userBackground"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/user_bg_desc"
+        android:src="@drawable/holder"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/questionBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/question_bg_desc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/hintButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/user_desc"
+        android:src="@drawable/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/artTrophyView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/trophy_desc"
+        android:src="@drawable/holder"
+        app:layout_constraintEnd_toStartOf="@+id/scienceTrophyView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scienceTrophyView" />
+
+    <ImageView
+        android:id="@+id/scienceTrophyView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/trophy_desc"
+        android:src="@drawable/holder"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/historyTrophyView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/trophy_desc"
+        android:src="@drawable/holder"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/sportsTrophyView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/trophy_desc"
+        android:src="@drawable/holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/historyTrophyView"
+        app:layout_constraintTop_toTopOf="@+id/historyTrophyView" />
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/correct"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        app:layout_constraintBottom_toTopOf="@+id/correctNumView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/incorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/incorrect"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+        app:layout_constraintBottom_toTopOf="@+id/incorrectNumView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/prompt"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/categories"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+
+    <TextView
+        android:id="@+id/correctNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/incorrectNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/questionNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectButton" />
+
+    <TextView
+        android:id="@+id/questionView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionNumView" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/buttonColor"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/questionView"
+        app:layout_constraintTop_toBottomOf="@+id/questionView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/buttonColor"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/questionView"
+        app:layout_constraintTop_toBottomOf="@+id/questionView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/buttonColor"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/buttonColor"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/next_button_desc"
+        android:onClick="nextPressed"
+        android:scaleType="centerCrop"
+        android:src="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/skipButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/skip_button_desc"
+        android:onClick="skipPressed"
+        android:scaleType="centerCrop"
+        android:src="@drawable/skip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/hintButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/hint_button_desc"
+        android:onClick="hintPressed"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nextButton"
+        app:layout_constraintStart_toEndOf="@+id/skipButton" />
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/select_button"
+        android:background="@color/buttonColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt" />
+
+</android.support.constraint.ConstraintLayout>
