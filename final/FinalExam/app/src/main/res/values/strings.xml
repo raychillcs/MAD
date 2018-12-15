@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pizza Builder</string>
+    <string name="title">Build Your Pizza</string>
+    <string name="edit_text">Name</string>
+    <string name="toggle_on">White</string>
+    <string name="toggle_off">Red</string>
+    <string name="radio1">Thick</string>
+    <string name="radio2">Thin</string>
+    <string name="checkbox1">Cheese</string>
+    <string name="checkbox2">Meat</string>
+    <string name="checkbox3">Veggie</string>
+    <string name="checkbox4">Supreme</string>
+    <string-array name="spinner">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="switcharoo">Gluten-free</string>
+    <string name="button1">Create</string>
+    <string name="button2">Find</string>
+</resources>
