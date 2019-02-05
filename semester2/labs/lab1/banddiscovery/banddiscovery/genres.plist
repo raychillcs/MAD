@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Country</string>
+		<key>subgenres</key>
+		<array>
+			<string>Bluegrass</string>
+			<string>Bro-country</string>
+			<string>Honky-tonk</string>
+			<string>Southern Rock</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Electronic</string>
+		<key>subgenres</key>
+		<array>
+			<string>Chiptune</string>
+			<string>Electronica</string>
+			<string>Techno</string>
+			<string>New Wave</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jazz</string>
+		<key>subgenres</key>
+		<array>
+			<string>Bebop</string>
+			<string>Cool Jazz</string>
+			<string>Dixieland</string>
+			<string>Swing</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rock</string>
+		<key>subgenres</key>
+		<array>
+			<string>Alt. Rock</string>
+			<string>Heavy Metal</string>
+			<string>Prog. Rock</string>
+			<string>Punk Rock</string>
+		</array>
+	</dict>
+</array>
+</plist>
