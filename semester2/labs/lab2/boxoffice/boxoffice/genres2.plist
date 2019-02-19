@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+	<key>genre</key>
+	<string>Action</string>
+	<key>movies</key>
+	<array>
+		<string>The Bourne Identity</string>
+		<string>James Bond</string>
+		<string>Kill Bill</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Adventure</string>
+	<key>movies</key>
+	<array>
+		<string>Indiana Jones</string>
+		<string>Lord of the Rings</string>
+		<string>Gladiator</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Comedy</string>
+	<key>movies</key>
+	<array>
+		<string>Dumb and Dumber</string>
+		<string>The Hangover</string>
+		<string>Superbad</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Drama</string>
+	<key>movies</key>
+	<array>
+		<string>Forrest Gump</string>
+		<string>The Pianist</string>
+		<string>Schindler's List</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Horror</string>
+	<key>movies</key>
+	<array>
+		<string>The Exorcist</string>
+		<string>Scream</string>
+		<string>Saw IV</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Romance</string>
+	<key>movies</key>
+	<array>
+		<string>The Notebook</string>
+		<string>P.S. I Love You</string>
+		<string>Titanic</string>
+	</array>
+</dict>
+<dict>
+	<key>genre</key>
+	<string>Thriller</string>
+	<key>movies</key>
+	<array>
+		<string>The Godfather</string>
+		<string>Pulp Fiction</string>
+		<string>The Sixth Sense</string>
+	</array>
+</dict>
+</array>
+</plist>
