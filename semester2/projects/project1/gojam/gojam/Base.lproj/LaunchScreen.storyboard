@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6y-J6-R0f">
+                                <rect key="frame" x="10" y="209" width="300" height="150"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guitar" translatesAutoresizingMaskIntoConstraints="NO" id="TQe-Cz-Pfi">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="5j0-eX-MrX"/>
+                                            <constraint firstAttribute="width" constant="150" id="ToJ-Rx-eYo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piano" translatesAutoresizingMaskIntoConstraints="NO" id="EE2-rn-yQR">
+                                        <rect key="frame" x="150" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Oq3-ep-mp9"/>
+                                            <constraint firstAttribute="width" constant="150" id="yPZ-Yc-wsK"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoJam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrJ-Go-u9K">
+                                <rect key="frame" x="126.5" y="367" width="67.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.97647058823529409" green="0.41053082191780821" blue="0.56761023116438369" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d6y-J6-R0f" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2Yy-iL-ZXH"/>
+                            <constraint firstItem="hrJ-Go-u9K" firstAttribute="top" secondItem="d6y-J6-R0f" secondAttribute="bottom" constant="8" id="EIl-F1-0bV"/>
+                            <constraint firstItem="hrJ-Go-u9K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UbW-fw-BAo"/>
+                            <constraint firstItem="d6y-J6-R0f" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="l7H-hj-iX2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="guitar" width="384" height="384"/>
+        <image name="piano" width="384" height="384"/>
+    </resources>
+</document>
