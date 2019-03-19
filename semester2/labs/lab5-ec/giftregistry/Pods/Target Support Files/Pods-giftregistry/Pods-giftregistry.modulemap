@@ -1,0 +1,6 @@
+framework module Pods_giftregistry {
+  umbrella header "Pods-giftregistry-umbrella.h"
+
+  export *
+  module * { export * }
+}
