@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Catdex</string>
+    <string name="banner">Catdex Banner</string>
+    <string name="cat_image">Cat picture</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_adopt">Adopt</string>
+</resources>
