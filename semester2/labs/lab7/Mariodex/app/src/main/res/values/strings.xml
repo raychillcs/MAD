@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mariodex</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="mario_banner">Mario Banner</string>
+</resources>

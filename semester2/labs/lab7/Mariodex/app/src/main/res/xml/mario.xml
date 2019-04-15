@@ -1,0 +1,42 @@
+<mariocharacters>
+	<character>
+		<name>Mario</name>
+		<url>https://nintendo.fandom.com/wiki/Mario</url>
+	</character>
+	<character>
+		<name>Luigi</name>
+		<url>https://nintendo.fandom.com/wiki/Luigi</url>
+	</character>
+	<character>
+		<name>Princess Peach</name>
+		<url>https://nintendo.fandom.com/wiki/Princess_Peach</url>
+	</character>
+	<character>
+		<name>Toad</name>
+		<url>https://nintendo.fandom.com/wiki/Toad_(character)</url>
+	</character>
+	<character>
+		<name>Yoshi</name>
+		<url>https://nintendo.fandom.com/wiki/Yoshi_(character)</url>
+	</character>
+	<character>
+		<name>Bowser</name>
+		<url>https://nintendo.fandom.com/wiki/Bowser</url>
+	</character>
+	<character>
+		<name>Waluigi</name>
+		<url>https://nintendo.fandom.com/wiki/Waluigi</url>
+	</character>
+	<character>
+		<name>Wario</name>
+		<url>https://nintendo.fandom.com/wiki/Wario</url>
+	</character>
+	<character>
+		<name>Princess Daisy</name>
+		<url>https://nintendo.fandom.com/wiki/Princess_Daisy</url>
+	</character>
+	<character>
+		<name>King Boo</name>
+		<url>https://nintendo.fandom.com/wiki/King_Boo</url>
+	</character>
+</mariocharacters>
