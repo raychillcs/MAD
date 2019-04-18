@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="title_piano">Piano</string>
+    <string name="title_drums">Drums</string>
+    <string name="title_guitar">Guitar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="piano_fragment">Piano Fragment</string>
+    <string name="drums_fragment">Drums Fragment</string>
+    <string name="guitar_fragment">Guitar Fragment</string>
+</resources>
