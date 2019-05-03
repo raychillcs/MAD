@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeyboardFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonC"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonD"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonD"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonE"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonC"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonE"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonF"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonD"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonF"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonG"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonE"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonG"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonA"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonF"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonA"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonB"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonG"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonB"
+            android:layout_width="45dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="8dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_key"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonA"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDb"
+            android:layout_width="30dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="45dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/black_key"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonEb"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonC"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonC" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEb"
+            android:layout_width="30dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="17dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/black_key"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonE"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonDb"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonDb" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGb"
+            android:layout_width="30dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="41dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/black_key"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonAb"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonF"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonF" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAb"
+            android:layout_width="30dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="26dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/black_key"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonBb"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonGb"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonGb" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBb"
+            android:layout_width="30dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="40dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_keyboard"
+            android:scaleType="centerInside"
+            android:src="@drawable/black_key"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonB"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonAb"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonAb" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

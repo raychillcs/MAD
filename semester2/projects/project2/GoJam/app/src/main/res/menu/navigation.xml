@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_keyboard"
+        android:icon="@drawable/ic_keyboard"
+        android:title="@string/title_keyboard" />
+
+    <item
+        android:id="@+id/navigation_drums"
+        android:icon="@drawable/ic_drums"
+        android:title="@string/title_drums" />
+
+    <item
+        android:id="@+id/navigation_guitar"
+        android:icon="@drawable/ic_guitar"
+        android:title="@string/title_guitar" />
+
+</menu>

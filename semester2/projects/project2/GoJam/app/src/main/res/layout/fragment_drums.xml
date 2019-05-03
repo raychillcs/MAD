@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrumsFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonCym2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="50dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/cymbals"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButtonTom3"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTom3" />
+
+        <ImageButton
+            android:id="@+id/imageButtonHat2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/cymbals"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTom4"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonCym2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonHat1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="32dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/cymbals"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTom1"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonCym1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCym1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="50dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/cymbals"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButtonTom2"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTom2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTom3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/drum"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonTom4"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTom2"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonTom2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTom2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/drum"
+            app:layout_constraintBottom_toTopOf="@+id/imageButtonTom1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonTom3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTom1"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonTom1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTom4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="150dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/drum"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTom1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTom1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/drum"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonTom4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonKick"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="44dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_drums"
+            android:scaleType="centerInside"
+            android:src="@drawable/kick"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTom3"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTom2"
+            app:layout_constraintTop_toTopOf="@+id/imageButtonTom2" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

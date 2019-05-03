@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuitarFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewHead"
+            android:layout_width="118dp"
+            android:layout_height="514dp"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.497" />
+
+        <ImageView
+            android:id="@+id/imageViewNeck1"
+            android:layout_width="159dp"
+            android:layout_height="224dp"
+            android:layout_marginTop="153dp"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/neck"
+            app:layout_constraintStart_toEndOf="@+id/imageViewHead"
+            app:layout_constraintTop_toTopOf="@+id/imageViewHead" />
+
+        <ImageView
+            android:id="@+id/imageViewNeck2"
+            android:layout_width="159dp"
+            android:layout_height="224dp"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/neck"
+            app:layout_constraintStart_toEndOf="@+id/imageViewNeck1"
+            app:layout_constraintTop_toTopOf="@+id/imageViewNeck1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonE1"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="32dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewNeck1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonB"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonE1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonG"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonB" />
+
+        <ImageButton
+            android:id="@+id/imageButtonD"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonG" />
+
+        <ImageButton
+            android:id="@+id/imageButtonA"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonD" />
+
+        <ImageButton
+            android:id="@+id/imageButtonE6"
+            android:layout_width="353dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_guitar"
+            android:scaleType="fitXY"
+            android:src="@drawable/string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonA" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

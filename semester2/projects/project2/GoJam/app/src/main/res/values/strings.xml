@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GoJam</string>
+    <string name="title_keyboard">Keyboard</string>
+    <string name="title_drums">Drums</string>
+    <string name="title_guitar">Guitar</string>
+
+    <string name="keyboard_fragment">Keyboard Fragment</string>
+    <string name="drums_fragment">Drums Fragment</string>
+    <string name="guitar_fragment">Guitar Fragment</string>
+
+    <!--Descriptions-->
+    <string name="desc_stop">Stop button</string>
+    <string name="desc_record">Record button</string>
+    <string name="desc_play">Play button</string>
+    <string name="desc_keyboard">Keyboard buttons</string>
+    <string name="desc_drums">Drum buttons</string>
+    <string name="desc_guitar">Guitar buttons</string>
+</resources>
